@@ -2,6 +2,7 @@ import "./globals.css";
 import { DM_Sans } from 'next/font/google'
 import { Inter } from "next/font/google";
 import Navibar from "./_components/Navibar";
+import { NextUIProvider } from "@nextui-org/system";
 
 const dmSans = DM_Sans({
   subsets: ['latin'],
@@ -22,10 +23,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`bg-[#F5F5F7] text-[#333333] antialiased`}
+        className={`antialiased`}
       >
-        <Navibar />
-        {children}
+        <NextUIProvider>
+          <Navibar />
+          {children}
+        </NextUIProvider>
       </body>
     </html>
   );

@@ -1,11 +1,11 @@
-import { Button } from "@nextui-org/button";
-import { NextUIProvider } from "@nextui-org/system";
+import Hero from "./_components/Hero";
+import Services from "./_components/Services";
 
 export default function Home() {
   return (
-    <NextUIProvider>
-      <h1>Hello, World!</h1>
-      <Button>Press me</Button>
-    </NextUIProvider>
+    <>
+      <Hero />
+      <Services />
+    </>
   );
 }
