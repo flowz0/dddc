@@ -6,14 +6,14 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="relative h-[72vh] flex items-center justify-center overflow-hidden">
+		<main id="about" className="relative h-[72vh] flex items-center justify-center overflow-hidden px-2">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"
 				className="absolute z-[-1] w-full h-full object-cover filter brightness-50"
 				priority
 			/>
-			<header className="relative z-10 flex flex-col justify-center items-center text-center max-w-2xl px-4">
+			<header className="relative z-10 flex flex-col justify-center items-center text-center max-w-2xl">
 				<Image
 					src={dddcLogo}
 					alt="Duct Daddy Duct Cleaning logo"
@@ -21,8 +21,8 @@ export default function Hero() {
 					height={1000}
 					className="h-48 w-auto"
 				/>
-				<h1 className="text-4xl font-bold text-white">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="text-lg text-white mt-4">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="text-3xl font-bold text-white sm:text-5xl">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="text-white mt-4">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact-us"}>
 					<Button className="mt-6" color="primary">Get a Free Quote</Button>
 				</Link>
