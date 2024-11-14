@@ -89,7 +89,7 @@ export default function Navibar() {
 					</NavbarMenuItem>
 				))}
 				<NavbarItem>
-					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" as={Link} href="#" fullWidth>
+					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" color="primary" as={Link} href="#" fullWidth>
 						Call Now
 					</Button>
 				</NavbarItem>

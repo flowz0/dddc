@@ -21,10 +21,10 @@ export default function Hero() {
 					height={1000}
 					className="h-48 w-auto sm:h-64"
 				/>
-				<h1 className="text-3xl font-bold text-white sm:text-5xl">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="text-white mt-6">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="text-3xl font-bold text-[#F5F5F7] sm:text-5xl">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="text-[#F5F5F7] mt-6">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact-us"}>
-					<Button className="mt-8" color="primary">Get a Free Quote</Button>
+					<Button className="mt-8 bg-[#3A73BA] text-[#F5F5F7]" color="primary">Get a Free Quote</Button>
 				</Link>
 			</header>
 		</main>
