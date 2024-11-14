@@ -33,7 +33,7 @@ function classNames(...classes) {
 
 export default function SpecialOffers() {
     return (
-        <div className="relative isolate bg-white pt-20 px-2">
+        <div className="pt-20 px-2 bg-[#F5F5F7]">
             {/* <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
                 <div
                     style={{
@@ -45,20 +45,20 @@ export default function SpecialOffers() {
             </div> */}
             <div className="mx-auto max-w-4xl text-center">
                 <h2 className="text-base/7 font-semibold text-[#3A73BA]">Special Offers</h2>
-                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-gray-900 sm:text-6xl">
+                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Choose the right plan for you
                 </p>
             </div>
-            <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
+            {/* <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
                 Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
                 loyalty, and driving sales.
-            </p>
+            </p> */}
             <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 {tiers.map((tier, tierIdx) => (
                     <div
                         key={tier.id}
                         className={classNames(
-                            tier.featured ? 'relative bg-[#333333] shadow-2xl' : 'bg-white/60 sm:mx-8 lg:mx-0',
+                            tier.featured ? 'relative bg-[#333333] shadow-2xl' : 'bg-[#FFFFFF]/60 sm:mx-8 lg:mx-0',
                             tier.featured
                                 ? ''
                                 : tierIdx === 0
@@ -76,7 +76,7 @@ export default function SpecialOffers() {
                         <p className="mt-4 flex items-baseline gap-x-2">
                             <span
                                 className={classNames(
-                                    tier.featured ? 'text-white' : 'text-gray-900',
+                                    tier.featured ? 'text-[#FFFFFF]' : 'text-gray-900',
                                     'text-5xl font-semibold tracking-tight',
                                 )}
                             >
@@ -84,13 +84,13 @@ export default function SpecialOffers() {
                             </span>
                             {/* <span className={classNames(tier.featured ? 'text-gray-400' : 'text-gray-500', 'text-base')}>/month</span> */}
                         </p>
-                        <p className={classNames(tier.featured ? 'text-gray-300' : 'text-gray-600', 'mt-6 text-base/7')}>
+                        <p className={classNames(tier.featured ? 'text-[#FFFFFF]/80' : 'text-[#333333]/80', 'mt-6 text-base/7')}>
                             {tier.description}
                         </p>
                         <ul
                             role="list"
                             className={classNames(
-                                tier.featured ? 'text-gray-300' : 'text-gray-600',
+                                tier.featured ? 'text-[#FFFFFF]/80' : 'text-[#333333]/80',
                                 'mt-8 space-y-3 text-sm/6 sm:mt-10',
                             )}
                         >
@@ -109,8 +109,8 @@ export default function SpecialOffers() {
                             aria-describedby={tier.id}
                             className={classNames(
                                 tier.featured
-                                    ? 'bg-[#3A73BA] text-white shadow-sm hover:bg-[hsl(213,62%,58%)] focus-visible:outline-indigo-500'
-                                    : 'text-[hsl(213,52%,48%)] ring-1 ring-inset ring-indigo-200 hover:ring-indigo-300 focus-visible:outline-[hsl(213,52%,48%)]',
+                                    ? 'bg-[#3A73BA] text-white shadow-sm hover:bg-[hsl(213,62%,58%)] focus-visible:outline-[#3A73BA]'
+                                    : 'text-[hsl(213,52%,48%)] ring-1 ring-inset ring-[#3A73BA] hover:ring-[hsl(213,62%,68%)] focus-visible:outline-[hsl(213,52%,48%)]',
                                 'mt-8 block rounded-lg px-3.5 py-2.5 text-center text-sm font-semibold focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 sm:mt-10',
                             )}
                         >

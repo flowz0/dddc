@@ -13,7 +13,7 @@ import {
 } from "@nextui-org/navbar";
 import Link from "next/link.js";
 import { Button } from "@nextui-org/button";
-import DuctDaddy03 from "@/app/assets/Duct-Daddy-03.png"
+import DuctDaddy03 from "@/app/assets/ductdaddy-website.png"
 import Image from "next/image.js";
 
 export default function Navibar() {
@@ -39,7 +39,7 @@ export default function Navibar() {
 						alt="Duct Daddy Duct Cleaning logo"
 						width={1000}
 						height={1000}
-						className="h-36 w-auto"
+						className="h-auto w-28"
 					/>
 				</NavbarBrand>
 			</NavbarContent>
@@ -68,12 +68,12 @@ export default function Navibar() {
 			</NavbarContent>
 			<NavbarContent className="hidden sm:flex" justify="end">
 				<NavbarItem>
-					<Button as={Link} color="primary" href="#">
+					<Button className="bg-[#3A73BA]" as={Link} color="primary" href="#">
 						Call Now
 					</Button>
 				</NavbarItem>
 			</NavbarContent>
-			<NavbarMenu>
+			<NavbarMenu className="bg-[#F5F5F7] text-[#333333]">
 				{menuItems.map((item, index) => (
 					<NavbarMenuItem key={`${item}-${index}`}>
 						<Link
@@ -89,7 +89,7 @@ export default function Navibar() {
 					</NavbarMenuItem>
 				))}
 				<NavbarItem>
-					<Button className="sm:hidden mt-4" as={Link} color="primary" href="#" fullWidth>
+					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" as={Link} href="#" fullWidth>
 						Call Now
 					</Button>
 				</NavbarItem>

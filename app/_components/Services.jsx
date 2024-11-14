@@ -5,10 +5,10 @@ import HVACSanitization from '@/app/assets/hvac-system-maintenance.jpg'
 
 export default function Services() {
 	return (
-		<div className="md:h-full md:flex md:flex-col md:justify-center md:items-center pt-20 px-2">
+		<div className="pt-20 px-2 bg-[#F5F5F7] md:h-full md:flex md:flex-col md:justify-center md:items-center">
 			<div className="mx-auto max-w-4xl text-center">
-				<h2 className="text-base/7 font-semibold text-sky-600">Services</h2>
-				<p className="text-balance text-4xl font-semibold tracking-tight mt-4 text-gray-900">
+				<h2 className="text-base/7 font-semibold text-[#3A73BA]">Services</h2>
+				<p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
 					Choose the perfect service
 				</p>
 				{/* <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
@@ -16,7 +16,7 @@ export default function Services() {
                     loyalty, and driving sales.
                 </p> */}
 			</div>
-			<article className="mt-6 flex flex-col gap-y-8 md:grid lg:grid-cols-3 md:gap-x-4">
+			<article className="mt-16 flex flex-col gap-y-8 md:grid lg:grid-cols-3 md:gap-x-8">
 				<Service
 					serviceImage={AirDuctCleaning}
 					serviceTitle={"Air Duct Cleaning"}

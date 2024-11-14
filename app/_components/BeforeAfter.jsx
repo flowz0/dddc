@@ -2,15 +2,15 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 
 export default function BeforeAfter() {
     return (
-        <div className='md:h-full md:flex md:flex-col md:justify-center md:items-center pt-20 px-2'>
+        <div className='pt-20 px-2 bg-[#F5F5F7] md:h-full md:flex md:flex-col md:justify-center md:items-center'>
             <div className='text-center'>
-                <h2 className="text-base/7 font-semibold text-sky-600">Gallery</h2>
-                <p className="text-balance text-4xl font-semibold tracking-tight mt-4 text-gray-900">
+                <h2 className="text-base/7 font-semibold text-[#3A73BA]">Gallery</h2>
+                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Before and after pictures
                 </p>
             </div>
             <ReactCompareSlider
-                className='mt-6 max-w-3xl rounded-lg'
+                className='mt-16 max-w-3xl rounded-lg'
                 itemOne={
                     <ReactCompareSliderImage
                         srcSet="https://cdn.pixabay.com/photo/2024/11/07/03/12/lizard-9179598_1280.jpg"
