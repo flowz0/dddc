@@ -5,13 +5,13 @@ import { BsFacebook, BsTiktok, BsGoogle  } from "react-icons/bs";
 export default function Footer() {
     return (
         <footer className="mt-20 px-2 bg-[#1A3A58]">
-            <div className="mx-auto max-w-4xl pt-12">
+            <div className="mx-auto max-w-4xl pt-6">
                 <Image
                     src={DDDCLogo}
                     alt="Duct Daddy Duct Cleaning logo"
                     className="h-auto w-48"
                 />
-                <div className="mt-12 mx-2 flex gap-x-6 text-[#F5F5F7]">
+                <div className="mt-8 mx-2 flex gap-x-6 text-[#F5F5F7]">
                     <BsFacebook className="text-2xl" />
                     <BsTiktok className="text-2xl" />
                     <BsGoogle className="text-2xl" />
