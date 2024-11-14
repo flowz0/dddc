@@ -13,18 +13,18 @@ export default function Hero() {
 				className="absolute z-[-1] w-full h-full object-cover filter brightness-50"
 				priority
 			/>
-			<header className="relative z-10 flex flex-col justify-center items-center text-center max-w-2xl">
+			<header className="relative z-10 flex flex-col justify-center items-center text-center max-w-4xl">
 				<Image
 					src={dddcLogo}
 					alt="Duct Daddy Duct Cleaning logo"
 					width={1000}
 					height={1000}
-					className="h-48 w-auto"
+					className="h-48 w-auto sm:h-72"
 				/>
-				<h1 className="text-3xl font-bold text-white sm:text-5xl">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="text-white mt-4">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="text-3xl font-bold text-white sm:text-6xl">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="text-white mt-6 sm:text-lg">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact-us"}>
-					<Button className="mt-6" color="primary">Get a Free Quote</Button>
+					<Button className="mt-8" color="primary">Get a Free Quote</Button>
 				</Link>
 			</header>
 		</main>
