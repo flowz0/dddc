@@ -2,10 +2,10 @@ import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slide
 
 export default function BeforeAfter() {
     return (
-        <div className='pt-20 px-2 bg-[#F5F5F7] md:h-full md:flex md:flex-col md:justify-center md:items-center'>
+        <div className='py-24 px-2 bg-[#FFFFFF] md:h-full md:flex md:flex-col md:justify-center md:items-center'>
             <div className='text-center'>
                 <h2 className="text-base/7 font-semibold text-[#3A73BA]">Gallery</h2>
-                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
+                <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Before and after pictures
                 </p>
             </div>

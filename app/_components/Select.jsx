@@ -26,7 +26,7 @@ export default function Select() {
         <Listbox value={selected} onChange={setSelected}>
             <Label className="block text-sm/6 font-medium text-[#333333]">Select a service</Label>
             <div className="relative mt-2">
-                <ListboxButton className="relative w-full cursor-default rounded-md py-1.5 pr-10 text-left bg-[#FFFFFF] text-[#333333] shadow-sm ring-1 ring-inset ring-[#333333] focus:outline-none focus:ring-2 focus:ring-[#3A73BA] sm:text-sm/6">
+                <ListboxButton className="relative w-full cursor-default rounded-md py-1.5 pr-10 text-left bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 focus:outline-none focus:ring-2 focus:ring-[#3A73BA] sm:text-sm/6">
                     <span className="flex items-center">
                         {/* <img alt="" src={selected.avatar} className="size-5 shrink-0 rounded-full" /> */}
                         <span className="ml-3 block truncate">{selected.name}</span>

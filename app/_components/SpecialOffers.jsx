@@ -33,7 +33,7 @@ function classNames(...classes) {
 
 export default function SpecialOffers() {
     return (
-        <div className="pt-20 px-2 bg-[#F5F5F7]">
+        <div className="py-24 px-2 bg-[#F5F5F7]">
             {/* <div aria-hidden="true" className="absolute inset-x-0 -top-3 -z-10 transform-gpu overflow-hidden px-36 blur-3xl">
                 <div
                     style={{
@@ -44,8 +44,8 @@ export default function SpecialOffers() {
                 />
             </div> */}
             <div className="mx-auto max-w-4xl text-center">
-                <h2 className="text-base/7 font-semibold text-[#3A73BA]">Special Offers</h2>
-                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
+                <h2 className="text-base/6 font-semibold text-[#3A73BA]">Special Offers</h2>
+                <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Choose the right plan for you
                 </p>
             </div>
@@ -53,7 +53,7 @@ export default function SpecialOffers() {
                 Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
                 loyalty, and driving sales.
             </p> */}
-            <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:mt-20 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+            <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 {tiers.map((tier, tierIdx) => (
                     <div
                         key={tier.id}

@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="px-2 relative h-[72vh] flex items-center justify-center overflow-hidden">
+		<main id="about" className="px-2 relative h-[72vh] sm:h-[76vh] flex items-center justify-center overflow-hidden">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"
@@ -24,10 +24,10 @@ export default function Hero() {
 					className="h-48 w-auto sm:h-64"
 					priority
 				/>
-				<h1 className="text-3xl font-bold leading-tight sm:text-5xl text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="mt-4 leading-relaxed text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="font-bold text-3xl/tight sm:text-5xl/tight text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="mt-4 sm:mt-6 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact-us"}>
-					<Button className="mt-8 bg-[#3A73BA] text-[#F5F5F7]" color="primary">Get a Free Quote</Button>
+					<Button className="mt-8 sm:mt-10 bg-[#3A73BA] text-[#F5F5F7]" color="primary">Get a Free Quote</Button>
 				</Link>
 			</header>
 		</main>

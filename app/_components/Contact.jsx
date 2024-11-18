@@ -4,10 +4,10 @@ import Select from "./Select";
 
 export default function Contact() {
     return (
-        <div className="pt-20 px-2 bg-[#F5F5F7]">
+        <div className="py-24 px-2 bg-[#FFFFFF]">
             <div className='text-center'>
-                <h2 className="text-base/7 font-semibold text-[#3A73BA]">Contact Us</h2>
-                <p className="mt-2 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
+                <h2 className="text-base/6 font-semibold text-[#3A73BA]">Contact Us</h2>
+                <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Reach out to us
                 </p>
             </div>
@@ -23,7 +23,7 @@ export default function Contact() {
                                 name="first-name"
                                 type="text"
                                 autoComplete="given-name"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#FFFFFF] text-[#333333] shadow-sm ring-1 ring-inset ring-[#333333] placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
                     </div>
@@ -37,7 +37,7 @@ export default function Contact() {
                                 name="phone-number"
                                 type="tel"
                                 autoComplete="tel"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#FFFFFF] text-[#333333] shadow-sm ring-1 ring-inset ring-[#333333] placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
                     </div>
@@ -51,7 +51,7 @@ export default function Contact() {
                                 name="email"
                                 type="email"
                                 autoComplete="email"
-                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#FFFFFF] text-[#333333] shadow-sm ring-1 ring-inset ring-[#333333] placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
                     </div>
@@ -67,7 +67,7 @@ export default function Contact() {
                                 id="message"
                                 name="message"
                                 rows={4}
-                                className="block w-full rounded-md border-0 px-3.5 py-2 resize-none bg-[#FFFFFF] text-[#333333] shadow-sm ring-1 ring-inset ring-[#333333] placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
+                                className="block w-full rounded-md border-0 px-3.5 py-2 resize-none bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                                 defaultValue={''}
                             />
                         </div>
