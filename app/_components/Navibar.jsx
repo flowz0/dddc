@@ -37,8 +37,8 @@ export default function Navibar() {
 					<Image
 						src={DuctDaddy03}
 						alt="Duct Daddy Duct Cleaning logo"
-						width={1000}
-						height={1000}
+						width={2827}
+						height={1264}
 						className="h-auto w-28"
 					/>
 				</NavbarBrand>

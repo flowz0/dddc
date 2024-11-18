@@ -8,7 +8,7 @@ export default function Service({ serviceImage, serviceTitle, serviceDesc, servi
             <Image
                 src={serviceImage || testimage}
                 alt="Service image"
-                className="rounded-lg shadow-md sm:shadow-none sm:rounded-b-none sm:rounded-t-lg"
+                className="rounded-lg shadow-lg sm:shadow-none sm:rounded-b-none sm:rounded-t-lg"
                 width={1920}
                 height={1080}
             />

@@ -6,23 +6,26 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="relative h-[72vh] flex items-center justify-center overflow-hidden px-2">
+		<main id="about" className="px-2 relative h-[72vh] flex items-center justify-center overflow-hidden">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"
 				className="absolute z-[-1] w-full h-full object-cover filter brightness-50"
+				width={5184}
+				height={3456}
 				priority
 			/>
-			<header className="relative z-10 flex flex-col justify-center items-center text-center max-w-4xl">
+			<header className="relative z-10 flex flex-col justify-center items-center text-center sm:max-w-2xl">
 				<Image
 					src={dddcLogo}
 					alt="Duct Daddy Duct Cleaning logo"
-					width={1000}
-					height={1000}
+					width={2000}
+					height={2000}
 					className="h-48 w-auto sm:h-64"
+					priority
 				/>
-				<h1 className="text-3xl font-bold text-[#F5F5F7] sm:text-5xl">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="text-[#F5F5F7] mt-6">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="text-3xl font-bold leading-tight sm:text-5xl text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="mt-4 leading-relaxed text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact-us"}>
 					<Button className="mt-8 bg-[#3A73BA] text-[#F5F5F7]" color="primary">Get a Free Quote</Button>
 				</Link>
