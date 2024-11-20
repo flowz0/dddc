@@ -5,7 +5,7 @@ const tiers = [
     {
         name: 'Breathe Easy Bundle',
         id: 'tier-hobby',
-        href: '#',
+        href: '#contact',
         priceMonthly: '$100',
         description: "Keep your home’s air fresh and safe with this complete cleaning package.",
         features: [
@@ -17,7 +17,7 @@ const tiers = [
     {
         name: 'Fresh Start Discount',
         id: 'tier-enterprise',
-        href: '#',
+        href: '#contact',
         priceMonthly: '$50',
         description: 'Give your home a fresh start with our top-quality cleaning.',
         features: [

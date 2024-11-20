@@ -4,7 +4,7 @@ import Select from "./Select";
 
 export default function Contact() {
     return (
-        <div className="py-24 px-2 bg-[#FFFFFF]">
+        <div id="contact" className="py-24 px-2 bg-[#FFFFFF]">
             <div className='text-center'>
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Contact Us</h2>
                 <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">

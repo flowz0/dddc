@@ -46,12 +46,7 @@ export default function Navibar() {
 
 			<NavbarContent className="hidden sm:flex gap-4 text-[#333333]" justify="center">
 				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" color="foreground" href="#">
-						About
-					</Link>
-				</NavbarItem>
-				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" href="#" aria-current="page">
+					<Link className="hover:text-[#3A73BA]" href="#services" aria-current="page">
 						Services
 					</Link>
 				</NavbarItem>
@@ -61,35 +56,36 @@ export default function Navibar() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" color="foreground" href="#">
+					<Link className="hover:text-[#3A73BA]" color="foreground" href="#contact">
 						Contact
 					</Link>
 				</NavbarItem>
 			</NavbarContent>
 			<NavbarContent className="hidden sm:flex" justify="end">
 				<NavbarItem>
-					<Button className="bg-[#3A73BA]" as={Link} color="primary" href="#">
+					<Button className="bg-[#3A73BA]" as={Link} color="primary" href="#footer">
 						Call Now
 					</Button>
 				</NavbarItem>
 			</NavbarContent>
 			<NavbarMenu className="bg-[#F5F5F7] text-[#333333]">
-				{menuItems.map((item, index) => (
-					<NavbarMenuItem key={`${item}-${index}`}>
-						<Link
-							// color={
-							//     index === 2 ? "primary" : index === menuItems.length - 1 ? "danger" : "foreground"
-							// }
-							className="w-full"
-							href="#"
-							size="lg"
-						>
-							{item}
-						</Link>
-					</NavbarMenuItem>
-				))}
+				<NavbarMenuItem>
+					<Link className="w-full" href="#services" size="lg">
+						Services
+					</Link>
+				</NavbarMenuItem>
+				<NavbarMenuItem>
+					<Link className="w-full" href="#" size="lg">
+						FAQ
+					</Link>
+				</NavbarMenuItem>
+				<NavbarMenuItem>
+					<Link className="w-full" href="#contact" size="lg">
+						Contact
+					</Link>
+				</NavbarMenuItem>
 				<NavbarItem>
-					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" color="primary" as={Link} href="#" fullWidth>
+					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" color="primary" as={Link} href="#footer" fullWidth>
 						Call Now
 					</Button>
 				</NavbarItem>
