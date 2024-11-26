@@ -34,13 +34,15 @@ export default function Navibar() {
 					className="order-1 sm:order-none sm:hidden"
 				/>
 				<NavbarBrand>
-					<Image
-						src={DuctDaddy03}
-						alt="Duct Daddy Duct Cleaning logo"
-						width={2827}
-						height={1264}
-						className="h-auto w-28"
-					/>
+					<Link href={'#about'}>
+						<Image
+							src={DuctDaddy03}
+							alt="Duct Daddy Duct Cleaning logo"
+							width={2827}
+							height={1264}
+							className="h-auto w-28"
+						/>
+					</Link>
 				</NavbarBrand>
 			</NavbarContent>
 
@@ -51,7 +53,7 @@ export default function Navibar() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" color="foreground" href="#">
+					<Link className="hover:text-[#3A73BA]" color="foreground" href="#faq">
 						FAQ
 					</Link>
 				</NavbarItem>
@@ -75,7 +77,7 @@ export default function Navibar() {
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem>
-					<Link className="w-full" href="#" size="lg">
+					<Link className="w-full" href="#faq" size="lg">
 						FAQ
 					</Link>
 				</NavbarMenuItem>

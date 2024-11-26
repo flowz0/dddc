@@ -5,7 +5,7 @@ import Link from "next/link";
 
 export default function Service({ serviceImage, serviceTitle, serviceDesc, serviceCTAButton }) {
     return (
-        <article className="max-w-4xl md:max-w-xl lg:max-w-sm max-h-full bg-[#F5F5F7] md:border md:border-gray-200 md:rounded-lg sm:shadow-lg dark:bg-gray-800 dark:border-gray-700">
+        <article className="max-w-4xl md:max-w-xl lg:max-w-sm max-h-full bg-[#FFFFFF] md:border md:border-gray-200 md:rounded-lg sm:shadow-lg dark:bg-gray-800 dark:border-gray-700">
             <Image
                 src={serviceImage || testimage}
                 alt="Service image"
@@ -15,7 +15,7 @@ export default function Service({ serviceImage, serviceTitle, serviceDesc, servi
             />
             <header className="p-2 sm:py-4 sm:px-6 sm:pb-6 pt-4">
                 <a href="#">
-                    <h2 className="text-2xl font-semibold tracking-tight text-[#333333] dark:text-white">
+                    <h2 className="text-2xl font-bold tracking-tight text-[#333333] dark:text-white">
                         {serviceTitle}
                     </h2>
                 </a>

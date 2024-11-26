@@ -1,7 +1,7 @@
 import BeforeAfter from "./_components/BeforeAfter";
 import Contact from "./_components/Contact";
 import Footer from "./_components/Footer";
-// import FAQ from "./_components/FAQ";
+import FAQ from "./_components/FAQ";
 import Hero from "./_components/Hero";
 import Services from "./_components/Services";
 import SpecialOffers from "./_components/SpecialOffers";
@@ -13,7 +13,7 @@ export default function Home() {
       <Services />
       <BeforeAfter />
       <SpecialOffers />
-      {/* <FAQ /> */}
+      <FAQ />
       <Contact />
       <Footer />
     </>

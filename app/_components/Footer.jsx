@@ -1,18 +1,18 @@
 import Image from "next/image";
 import DDDCLogo from '@/app/assets/Duct-Daddy-01.png'
-import { BsFacebook, BsTiktok, BsGoogle  } from "react-icons/bs";
+import { BsFacebook, BsTiktok, BsGoogle } from "react-icons/bs";
 import Link from "next/link";
 
 export default function Footer() {
     return (
-        <footer id="footer" className="px-2 bg-[#1A3A58]">
-            <div className="mx-auto max-w-4xl pt-8">
+        <footer id="footer" className="px-2 pt-8 bg-[#1A3A58]">
+            <div className="mx-auto max-w-4xl">
                 <Image
                     src={DDDCLogo}
                     alt="Duct Daddy Duct Cleaning logo"
                     className="h-auto w-48"
                     width={3009}
-					height={2983}
+                    height={2983}
                 />
                 <div className="mt-6 mx-2 flex gap-x-6 text-[#F5F5F7]">
                     <BsFacebook className="text-2xl" />
@@ -23,9 +23,15 @@ export default function Footer() {
                     <div>
                         <h3 className="font-bold text-lg uppercase tracking-wide">Company</h3>
                         <div className="mt-4 flex flex-col gap-y-2">
-                            <span>Services</span>
-                            <span>FAQ</span>
-                            <span>Contact</span>
+                            <Link href={'#services'}>
+                                <span>Services</span>
+                            </Link>
+                            <Link href={'#faq'}>
+                                <span>FAQ</span>
+                            </Link>
+                            <Link href={'#contact'}>
+                                <span>Contact</span>
+                            </Link>
                         </div>
                     </div>
                     <div>

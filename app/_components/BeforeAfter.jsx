@@ -1,29 +1,27 @@
-import { ReactCompareSlider, ReactCompareSliderImage } from 'react-compare-slider';
+"use client";
+import { ReactCompareSlider } from 'react-compare-slider';
+
+import BeforeImg from '@/app/assets/before.jpg'
+import AfterImg from '@/app/assets/after.jpg'
+import Image from 'next/image';
 
 export default function BeforeAfter() {
     return (
-        <div className='py-24 px-2 bg-[#FFFFFF] md:h-full md:flex md:flex-col md:justify-center md:items-center'>
+        <div className='py-20 px-2 bg-[#F5F5F7] md:flex md:flex-col md:justify-center md:items-center'>
             <div className='text-center'>
-                <h2 className="text-base/7 font-semibold text-[#3A73BA]">Gallery</h2>
+                <h2 className="text-base/6 font-semibold text-[#3A73BA]">Our Work</h2>
                 <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Before and after pictures
                 </p>
             </div>
-            <ReactCompareSlider
-                className='mt-16 max-w-3xl rounded-lg'
-                itemOne={
-                    <ReactCompareSliderImage
-                        srcSet="https://cdn.pixabay.com/photo/2024/11/07/03/12/lizard-9179598_1280.jpg"
-                        alt="Image one"
-                    />
-                }
-                itemTwo={
-                    < ReactCompareSliderImage
-                        srcSet="https://cdn.pixabay.com/photo/2024/09/01/11/36/tansy-9013813_1280.jpg"
-                        alt="Image two"
-                    />
-                }
-            />
+
+            <div className='flex justify-center'>
+                <ReactCompareSlider className='max-w-fit md:max-w-4xl h-[400px] sm:h-[500px] md:h-[600px] rounded-lg mt-16 shadow-lg'
+                    itemOne={<Image src={BeforeImg} alt='Photo 1' className='h-full w-auto object-cover' />}
+                    itemTwo={<Image src={AfterImg} alt='Photo 2' className='h-full w-auto object-cover' />}
+                />
+            </div>
+
         </div>
     );
 }
