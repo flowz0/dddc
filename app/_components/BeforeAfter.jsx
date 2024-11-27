@@ -16,7 +16,7 @@ export default function BeforeAfter() {
             </div>
 
             <div className='flex justify-center'>
-                <ReactCompareSlider className='max-w-fit md:max-w-4xl h-[400px] sm:h-[500px] md:h-[600px] rounded-lg mt-16 shadow-lg'
+                <ReactCompareSlider className='max-w-fit md:max-w-4xl h-[400px] sm:h-[440px] md:h-[480px] rounded-lg mt-16 shadow-lg'
                     itemOne={<Image src={BeforeImg} alt='Photo 1' className='h-full w-auto object-cover' />}
                     itemTwo={<Image src={AfterImg} alt='Photo 2' className='h-full w-auto object-cover' />}
                 />

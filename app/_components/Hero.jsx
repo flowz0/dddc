@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="px-2 relative h-[66vh] sm:h-[76vh] flex items-center justify-center overflow-hidden">
+		<main id="about" className="px-2 relative h-[66vh] sm:h-[80vh] flex items-center justify-center overflow-hidden">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"

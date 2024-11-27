@@ -22,14 +22,14 @@ export default function Footer() {
                 <div className="mt-12 mx-2 grid grid-cols-1 gap-y-12 md:text-left text-[#F5F5F7] md:grid-cols-4">
                     <div>
                         <h3 className="font-bold text-lg uppercase tracking-wide">Company</h3>
-                        <div className="mt-4 flex flex-col gap-y-2">
-                            <Link href={'#services'}>
+                        <div className="mt-6 flex flex-col gap-y-2.5">
+                            <Link href={'#services'} className="hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]">
                                 <span>Services</span>
                             </Link>
-                            <Link href={'#faq'}>
+                            <Link href={'#faq'} className="hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]">
                                 <span>FAQ</span>
                             </Link>
-                            <Link href={'#contact'}>
+                            <Link href={'#contact'} className="hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]">
                                 <span>Contact</span>
                             </Link>
                         </div>
