@@ -36,11 +36,11 @@ export default function SpecialOffers() {
         <div className="py-20 px-2 bg-[#FFFFFF]">
             <div className="mx-auto max-w-4xl text-center">
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Special Offers</h2>
-                <p className="mt-6 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
+                <p className="mt-4 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
                     Choose the right plan for you
                 </p>
             </div>
-            <div className="mx-auto mt-16 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
+            <div className="mx-auto mt-8 grid max-w-lg grid-cols-1 items-center gap-y-6 sm:gap-y-0 lg:max-w-4xl lg:grid-cols-2">
                 {tiers.map((tier, tierIdx) => (
                     <div
                         key={tier.id}

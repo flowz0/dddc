@@ -8,12 +8,12 @@ export default function Contact() {
         <div id="contact" className="py-20 px-2 bg-[#FFFFFF]">
             <div className='text-center'>
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Contact Us</h2>
-                <p className="mt-6 text-balance text-5xl font-semibold text-[#333333] sm:text-6xl">
+                <p className="mt-4 text-balance text-5xl font-semibold text-[#333333] sm:text-6xl">
                     Reach out to us
                 </p>
             </div>
-            <form action="#" method="POST" className="mx-auto mt-16 max-w-xl">
-                <div className="grid grid-cols-1 gap-x-8 gap-y-6 sm:grid-cols-2">
+            <form action="#" method="POST" className="mx-auto mt-8 max-w-xl">
+                <div className="grid grid-cols-1 gap-x-6 gap-y-4 sm:grid-cols-2">
                     <div>
                         <label htmlFor="first-name" className="block text-sm/6 font-semibold text-[#333333]">
                             Name
@@ -24,6 +24,7 @@ export default function Contact() {
                                 name="first-name"
                                 type="text"
                                 autoComplete="given-name"
+                                placeholder="Enter name"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
@@ -38,6 +39,7 @@ export default function Contact() {
                                 name="phone-number"
                                 type="tel"
                                 autoComplete="tel"
+                                placeholder="Enter phone number"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
@@ -52,6 +54,7 @@ export default function Contact() {
                                 name="email"
                                 type="email"
                                 autoComplete="email"
+                                placeholder="Enter email"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
                             />
                         </div>
@@ -68,13 +71,13 @@ export default function Contact() {
                                 id="message"
                                 name="message"
                                 rows={4}
+                                placeholder="Enter message"
                                 className="block w-full rounded-md border-0 px-3.5 py-2 resize-none bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 placeholder:text-[rgba(51,51,51,0.8)] focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
-                                defaultValue={''}
                             />
                         </div>
                     </div>
                 </div>
-                <div className="mt-8">
+                <div className="mt-4">
                     <Button className="block text-[#F5F5F7] bg-[#3A73BA] rounded-lg" fullWidth>
                         Request a Free Quote
                     </Button>
