@@ -33,7 +33,7 @@ function classNames(...classes) {
 
 export default function SpecialOffers() {
     return (
-        <div className="py-20 px-2 bg-[#FFFFFF]">
+        <div id="specials" className="py-20 px-2 bg-[#FFFFFF]">
             <div className="mx-auto max-w-4xl text-center">
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Special Offers</h2>
                 <p className="mt-4 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">

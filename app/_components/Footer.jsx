@@ -16,9 +16,15 @@ export default function Footer() {
                     height={2983}
                 />
                 <div className="mt-2 mx-2 flex gap-x-2 text-[#F5F5F7]">
-                    <BsGoogle className="text-xl" />
-                    <FaFacebookF className="text-xl" />
-                    <BsTiktok className="text-xl" />
+                    <Link href={"https://maps.app.goo.gl/hTBDS1CVNxKTGFUP9?g_st=ic"} target="_blank">
+                        <BsGoogle className="text-xl" />
+                    </Link>
+                    <Link href={"https://www.facebook.com/ductdaddykc"} target="_blank">
+                        <FaFacebookF className="text-xl" />
+                    </Link>
+                    <Link href={"https://www.tiktok.com/@ductdaddykc"} target="_blank">
+                        <BsTiktok className="text-xl" />
+                    </Link>
                 </div>
                 <div className="mt-6 mx-2 grid grid-cols-1 gap-y-6 md:text-left text-[#F5F5F7] md:grid-cols-4">
                     <div>

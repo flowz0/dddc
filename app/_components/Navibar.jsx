@@ -19,15 +19,8 @@ import Image from "next/image.js";
 export default function Navibar() {
 	const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-	const menuItems = [
-		"About",
-		"Services",
-		"FAQ",
-		"Contact",
-	];
-
 	return (
-		<Navbar className="shadow-md bg-[#F5F5F7]" onMenuOpenChange={setIsMenuOpen}>
+		<Navbar className={isMenuOpen ? 'bg-[#F5F5F7]' : `shadow-md bg-[#F5F5F7]`} onMenuOpenChange={setIsMenuOpen}>
 			<NavbarContent>
 				<NavbarMenuToggle
 					aria-label={isMenuOpen ? "Close menu" : "Open menu"}
@@ -50,6 +43,16 @@ export default function Navibar() {
 				<NavbarItem>
 					<Link className="hover:text-[#3A73BA]" href="#services" aria-current="page">
 						Services
+					</Link>
+				</NavbarItem>
+				<NavbarItem>
+					<Link className="hover:text-[#3A73BA]" href="#work" aria-current="page">
+						Work
+					</Link>
+				</NavbarItem>
+				<NavbarItem>
+					<Link className="hover:text-[#3A73BA]" href="#specials" aria-current="page">
+						Specials
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
@@ -76,6 +79,16 @@ export default function Navibar() {
 						Services
 					</Link>
 				</NavbarMenuItem>
+				<NavbarItem>
+					<Link className="hover:text-[#3A73BA]" href="#work" aria-current="page">
+						Work
+					</Link>
+				</NavbarItem>
+				<NavbarItem>
+					<Link className="hover:text-[#3A73BA]" href="#specials" aria-current="page">
+						Specials
+					</Link>
+				</NavbarItem>
 				<NavbarMenuItem>
 					<Link className="w-full" href="#faq" size="lg">
 						FAQ

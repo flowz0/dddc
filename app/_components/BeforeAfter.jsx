@@ -7,7 +7,7 @@ import Image from 'next/image';
 
 export default function BeforeAfter() {
     return (
-        <div className='py-20 px-2 bg-[#F5F5F7] md:flex md:flex-col md:justify-center md:items-center'>
+        <div id='work' className='py-20 px-2 bg-[#F5F5F7] md:flex md:flex-col md:justify-center md:items-center'>
             <div className='text-center'>
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Our Work</h2>
                 <p className="mt-4 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
