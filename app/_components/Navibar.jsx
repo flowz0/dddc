@@ -56,12 +56,12 @@ export default function Navibar() {
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" color="foreground" href="#faq">
+					<Link className="hover:text-[#3A73BA]" href="#faq">
 						FAQ
 					</Link>
 				</NavbarItem>
 				<NavbarItem>
-					<Link className="hover:text-[#3A73BA]" color="foreground" href="#contact">
+					<Link className="hover:text-[#3A73BA]" href="#contact">
 						Contact
 					</Link>
 				</NavbarItem>
@@ -75,35 +75,35 @@ export default function Navibar() {
 			</NavbarContent>
 			<NavbarMenu className="bg-[#F5F5F7] text-[#333333]">
 				<NavbarMenuItem>
-					<Link className="w-full" href="#services" size="lg">
+					<Link className="hover:text-[#3A73BA]" href="#services">
 						Services
 					</Link>
 				</NavbarMenuItem>
-				<NavbarItem>
+				<NavbarMenuItem>
 					<Link className="hover:text-[#3A73BA]" href="#work" aria-current="page">
 						Work
 					</Link>
-				</NavbarItem>
-				<NavbarItem>
+				</NavbarMenuItem>
+				<NavbarMenuItem>
 					<Link className="hover:text-[#3A73BA]" href="#specials" aria-current="page">
 						Specials
 					</Link>
-				</NavbarItem>
+				</NavbarMenuItem>
 				<NavbarMenuItem>
-					<Link className="w-full" href="#faq" size="lg">
+					<Link className="hover:text-[#3A73BA]" href="#faq">
 						FAQ
 					</Link>
 				</NavbarMenuItem>
 				<NavbarMenuItem>
-					<Link className="w-full" href="#contact" size="lg">
+					<Link className="hover:text-[#3A73BA]" href="#contact">
 						Contact
 					</Link>
 				</NavbarMenuItem>
-				<NavbarItem>
-					<Button className="sm:hidden mt-4 text-[#F5F5F7] bg-[#3A73BA]" color="primary" as={Link} href="#footer" fullWidth>
+				<NavbarMenuItem>
+					<Button className="mt-4 text-[#F5F5F7] bg-[#3A73BA] sm:hidden" color="primary" as={Link} href="#footer" fullWidth>
 						Call Now
 					</Button>
-				</NavbarItem>
+				</NavbarMenuItem>
 			</NavbarMenu>
 		</Navbar>
 	)
