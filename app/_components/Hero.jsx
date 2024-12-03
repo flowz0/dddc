@@ -25,9 +25,9 @@ export default function Hero() {
 					priority
 				/>
 				<h1 className="font-bold text-3xl/tight sm:text-5xl/tight text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="mt-4 sm:mt-6 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
+				<p className="mt-2 sm:mt-4 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
 				<Link href={"#contact"}>
-					<Button className="mt-4 sm:mt-8 bg-[#3A73BA] text-[#F5F5F7]" color="primary" size="lg">Get a Free Quote</Button>
+					<Button className="mt-4 sm:mt-6 bg-[#3A73BA] text-[#F5F5F7]" color="primary" size="lg">Get a Free Quote</Button>
 				</Link>
 			</header>
 		</main>
