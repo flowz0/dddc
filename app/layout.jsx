@@ -1,7 +1,7 @@
 import "./globals.css";
 import { DM_Sans } from 'next/font/google'
 import { Inter } from "next/font/google";
-import Navibar from "./_components/Navibar";
+import Navibar from "./components/Navibar";
 import { NextUIProvider } from "@nextui-org/system";
 
 const dmSans = DM_Sans({

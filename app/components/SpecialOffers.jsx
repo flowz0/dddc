@@ -1,4 +1,3 @@
-import { Button } from "@nextui-org/button";
 import { HiCheck } from "react-icons/hi2";
 
 const tiers = [
