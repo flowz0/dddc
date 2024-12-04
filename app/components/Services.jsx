@@ -31,7 +31,7 @@ export default function Services() {
 				/>
 				<Service
 					serviceImage={HVACSanitization}
-					serviceTitle={"HVAC Sanitization"}
+					serviceTitle={"HVAC Maintenance"}
 					serviceDesc={"Our non-toxic HVAC sanitization kills bacteria and mold, helping circulate cleaner air throughout your home."}
 					serviceCTAButton={"Learn more"}
 				/>
