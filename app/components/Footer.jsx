@@ -1,7 +1,6 @@
 import Image from "next/image";
 import DDDCLogo from '@/app/assets/Duct-Daddy-01.png'
-import { BsTiktok, BsGoogle } from "react-icons/bs";
-import { FaFacebookF } from "react-icons/fa6";
+import { FaGoogle, FaFacebookF, FaTiktok } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function Footer() {
@@ -17,13 +16,13 @@ export default function Footer() {
                 />
                 <div className="mt-2 mx-2 flex gap-x-2 text-[#F5F5F7]">
                     <Link href={"https://maps.app.goo.gl/hTBDS1CVNxKTGFUP9?g_st=ic"} target="_blank">
-                        <BsGoogle className="text-xl" />
+                        <FaGoogle className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
                     <Link href={"https://www.facebook.com/ductdaddykc"} target="_blank">
-                        <FaFacebookF className="text-xl" />
+                        <FaFacebookF className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
                     <Link href={"https://www.tiktok.com/@ductdaddykc"} target="_blank">
-                        <BsTiktok className="text-xl" />
+                        <FaTiktok className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
                 </div>
                 <div className="mt-6 mx-2 grid grid-cols-1 gap-y-6 md:text-left text-[#F5F5F7] md:grid-cols-4">
@@ -66,8 +65,8 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr className="mt-8 mx-2 border-0 h-px bg-[#F5F5F7]" />
-                <p className="mt-4 mx-2 pb-4 text-sm text-center leading-loose text-[#F5F5F7]">© 2024 Duct Daddy Duct Cleaning | Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid">flowz0</Link></p>
+                <hr className="mt-6 mx-2 border-0 h-px bg-[#F5F5F7]" />
+                <p className="py-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2024 Duct Daddy Duct Cleaning | Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="font-semibold underline decoration-solid hover:text-orange-500">flowz0</Link></p>
             </div>
         </footer>
     )
