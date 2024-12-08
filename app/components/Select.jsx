@@ -17,6 +17,10 @@ const services = [
         id: 3,
         name: 'HVAC Maintenance',
     },
+    {
+        id: 4,
+        name: 'Other Service',
+    },
 ]
 
 export default function Select() {
