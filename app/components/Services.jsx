@@ -16,7 +16,7 @@ export default function Services() {
                     loyalty, and driving sales.
                 </p> */}
 			</div>
-			<article className="mt-8 flex flex-col gap-y-8 md:grid lg:grid-cols-3 md:gap-x-8">
+			<article className="mt-8 flex flex-col gap-y-8 md:grid lg:grid-cols-3 md:gap-x-4">
 				<Service
 					serviceImage={AirDuctCleaning}
 					serviceTitle={"Air Duct Cleaning"}
