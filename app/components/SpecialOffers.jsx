@@ -6,10 +6,9 @@ const tiers = [
         id: 'tier-hobby',
         href: '#contact',
         priceMonthly: '$100',
-        description: "Keep your home’s air fresh and safe with this complete cleaning package.",
+        description: "Book our comprehensive air duct cleaning service, and add dryer vent cleaning for only $100! Keep your home\’s air fresh and safe with this complete cleaning package.",
         features: [
-            'Air duct cleaning service',
-            'Dryer vent cleaning'
+            'Air duct cleaning service'
         ],
         featured: true,
     },
@@ -18,9 +17,10 @@ const tiers = [
         id: 'tier-enterprise',
         href: '#contact',
         priceMonthly: '$50',
-        description: 'Give your home a fresh start with our top-quality cleaning.',
+        description: 'New customers save $50 on their first air duct cleaning service! Give your home a fresh start with our top-quality cleaning.',
         features: [
             'Air duct cleaning service',
+            'Dryer vent cleaning'
         ],
         featured: false,
     },
