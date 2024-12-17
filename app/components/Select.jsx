@@ -37,7 +37,7 @@ export default function Select({ selected, onChange }) {
         name={selected}
         value={selected}
         onChange={(e) => onChange(e.target.value)}
-        className="block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
+        className="mt-1.5 block w-full rounded-md border-0 px-3.5 py-2 bg-[#F5F5F7] text-[#333333] shadow-sm ring-1 ring-[#333333]/5 focus:ring-2 focus:ring-inset focus:ring-[#3A73BA] sm:text-sm/6"
       >
         {services.map((service) => (
           <option key={service.id} value={service.name}>
