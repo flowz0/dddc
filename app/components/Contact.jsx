@@ -30,7 +30,7 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="py-20 px-2 bg-[#FFFFFF]">
+    <div id="contact" className="py-20 px-4 bg-[#FFFFFF]">
       <div className="text-center">
         <h2 className="text-base/6 font-semibold text-[#3A73BA]">Contact Us</h2>
         <p className="mt-4 text-balance text-5xl font-semibold text-[#333333] sm:text-6xl">
@@ -50,7 +50,7 @@ export default function Contact() {
             >
               Name
             </label>
-            <div className="mt-2">
+            <div className="mt-1.5">
               <input
                 name="name"
                 id="name"
@@ -70,7 +70,7 @@ export default function Contact() {
             >
               Phone
             </label>
-            <div className="mt-2">
+            <div className="mt-1.5">
               <input
                 name="phone"
                 id="phone"
@@ -90,7 +90,7 @@ export default function Contact() {
             >
               Email
             </label>
-            <div className="mt-2">
+            <div className="mt-1.5">
               <input
                 name="email"
                 id="email"
@@ -113,7 +113,7 @@ export default function Contact() {
             >
               Message
             </label>
-            <div className="mt-2">
+            <div className="mt-1.5">
               <textarea
                 name="message"
                 id="message"
@@ -126,7 +126,7 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="mt-4">
+        <div className="mt-3">
           <Button
             className="block text-[#F5F5F7] bg-[#3A73BA] rounded-lg"
             fullWidth
