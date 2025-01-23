@@ -26,10 +26,6 @@ export default function BeforeAfter() {
                     itemTwo={<Image src={After1} alt='Photo after service 1' className='h-full w-auto object-cover' />}
                 />
                 <ReactCompareSlider className='mt-8 max-w-fit md:max-w-4xl h-[400px] sm:h-[440px] md:h-[480px] rounded-lg shadow-lg'
-                    itemOne={<Image src={Before2} alt='Photo before service 2' className='h-full w-auto object-cover' />}
-                    itemTwo={<Image src={After2} alt='Photo after service 2' className='h-full w-auto object-cover' />}
-                />
-                <ReactCompareSlider className='mt-8 max-w-fit md:max-w-4xl h-[400px] sm:h-[440px] md:h-[480px] rounded-lg shadow-lg'
                     itemOne={<Image src={Before3} alt='Photo before service 3' className='h-full w-auto object-cover' />}
                     itemTwo={<Image src={After3} alt='Photo after service 3' className='h-full w-auto object-cover' />}
                 />

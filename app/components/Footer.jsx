@@ -6,7 +6,7 @@ import Link from "next/link";
 export default function Footer() {
     return (
         <footer id="footer" className="px-2 pt-2 bg-[#1A3A58]">
-            <div className="mx-auto max-w-4xl">
+            <div className="mx-auto max-w-5xl">
                 <Image
                     src={DDDCLogo}
                     alt="Duct Daddy Duct Cleaning logo"

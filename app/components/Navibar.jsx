@@ -88,7 +88,7 @@ export default function Navibar() {
       <NavbarContent className="hidden sm:flex" justify="end">
         <NavbarItem>
           <Button
-            className="text-[#F5F5F7] bg-[#FF3B3F]"
+            className="text-[#F5F5F7] bg-[#FF3B3F] font-bold"
             radius="lg"
             startContent={<FaPhone />}
             as={Link}
