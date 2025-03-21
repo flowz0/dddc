@@ -4,6 +4,14 @@ import { FaGoogle, FaFacebookF, FaTiktok } from "react-icons/fa6";
 import Link from "next/link";
 
 export default function Footer() {
+    
+    const newDateYear = () => {
+        const date = new Date();
+        return date.getFullYear();
+    }; 
+
+    newDateYear();
+
     return (
         <footer id="footer" className="px-2 pt-2 bg-[#1A3A58]">
             <div className="mx-auto max-w-5xl">
@@ -66,7 +74,10 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr className="mt-6 mx-2 border-0 h-px bg-[#F5F5F7]" />
-                <p className="py-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2024 Duct Daddy Duct Cleaning | Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="font-semibold underline decoration-solid hover:text-orange-500">flowz0</Link></p>
+                <div className="flex justify-between items-center">
+                    <p className="pt-4 pb-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
+                    <p className="text-[#F5F5F7]">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
+                </div>
             </div>
         </footer>
     )

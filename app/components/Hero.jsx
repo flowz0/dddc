@@ -6,11 +6,11 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="px-2 relative py-10 flex items-center justify-center overflow-hidden">
+		<main id="about" className="px-6 relative py-10 flex items-center justify-center overflow-hidden">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"
-				className="absolute z-[-1] w-full h-full object-cover filter brightness-50"
+				className="absolute z-[-1] w-full h-full object-cover filter brightness-[40%]"
 				width={5184}
 				height={3456}
 				priority
