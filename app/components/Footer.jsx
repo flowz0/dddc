@@ -13,16 +13,16 @@ export default function Footer() {
     newDateYear();
 
     return (
-        <footer id="footer" className="px-2 pt-2 bg-[#1A3A58]">
+        <footer id="footer" className="px-6 pt-6 bg-[#1A3A58]">
             <div className="mx-auto max-w-5xl">
                 <Image
                     src={DDDCLogo}
                     alt="Duct Daddy Duct Cleaning logo"
-                    className="h-auto w-48"
+                    className="h-40 w-auto"
                     width={3009}
                     height={2983}
                 />
-                <div className="mt-2 mx-2 flex gap-x-2 text-[#F5F5F7]">
+                <div className="mt-4 mx-2 flex gap-x-2 text-[#F5F5F7]">
                     <Link href={"https://maps.app.goo.gl/hTBDS1CVNxKTGFUP9?g_st=ic"} target="_blank">
                         <FaGoogle className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
@@ -74,9 +74,9 @@ export default function Footer() {
                     </div>
                 </div>
                 <hr className="mt-6 mx-2 border-0 h-px bg-[#F5F5F7]" />
-                <div className="flex justify-between items-center">
-                    <p className="pt-4 pb-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
-                    <p className="text-[#F5F5F7]">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
+                <div className="flex flex-col sm:flex-row justify-between items-center">
+                    <p className="pt-4 pb-4 sm:pb-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
+                    <p className="text-[#F5F5F7] pb-8 sm:pb-0">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
                 </div>
             </div>
         </footer>

@@ -30,11 +30,11 @@ export default function Contact() {
   };
 
   return (
-    <div id="contact" className="py-20 px-4 bg-[#FFFFFF]">
+    <div id="contact" className="py-20 px-6 bg-[#FFFFFF]">
       <div className="text-center">
         <h2 className="text-base/6 font-semibold text-[#3A73BA]">Contact Us</h2>
-        <p className="mt-4 text-balance text-5xl font-semibold text-[#333333] sm:text-6xl">
-          Reach out to us
+        <p className="mt-4 text-balance text-3xl font-semibold text-[#333333] sm:text-5xl">
+          Reach Out To Us
         </p>
       </div>
       <form

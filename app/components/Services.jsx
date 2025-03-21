@@ -5,16 +5,12 @@ import HVACSanitization from '@/app/assets/hvac-system-maintenance.jpg'
 
 export default function Services() {
 	return (
-		<div id="services" className="py-20 px-4 sm:px-6 bg-[#FFFFFF] md:h-full md:flex md:flex-col md:justify-center md:items-center">
+		<div id="services" className="py-20 px-6 bg-[#FFFFFF] md:h-full md:flex md:flex-col md:justify-center md:items-center">
 			<div className="mx-auto max-w-4xl text-center">
 				<h2 className="text-base/6 font-semibold text-[#3A73BA]">Services</h2>
-				<p className="mt-4 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
-					Choose the perfect service
+				<p className="mt-4 text-balance text-3xl font-semibold tracking-tight text-[#333333] sm:text-5xl">
+					Choose The Perfect Service
 				</p>
-				{/* <p className="mx-auto mt-6 max-w-2xl text-pretty text-center text-lg font-medium text-gray-600 sm:text-xl/8">
-                    Choose an affordable plan that’s packed with the best features for engaging your audience, creating customer
-                    loyalty, and driving sales.
-                </p> */}
 			</div>
 			<article className="mt-8 flex flex-col gap-y-8 md:grid lg:grid-cols-3 md:gap-x-4">
 				<Service

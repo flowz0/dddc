@@ -6,7 +6,7 @@ import Link from "next/link"
 
 export default function Hero() {
 	return (
-		<main id="about" className="px-6 relative py-10 flex items-center justify-center overflow-hidden">
+		<main id="about" className="px-6 relative py-12 sm:py-16 flex items-center justify-center overflow-hidden">
 			<Image
 				src={bgImage}
 				alt="Picture of Missouri, Kansas City"
@@ -21,13 +21,13 @@ export default function Hero() {
 					alt="Duct Daddy Duct Cleaning logo"
 					width={2000}
 					height={2000}
-					className="h-48 w-auto sm:h-64"
+					className="h-56 w-auto sm:h-64"
 					priority
 				/>
-				<h1 className="font-bold text-3xl/tight sm:text-5xl/tight text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
-				<p className="mt-2 sm:mt-4 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas</p>
+				<h1 className="mt-4 font-bold text-3xl/tight sm:text-5xl/tight text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
+				<p className="mt-2 px-1 sm:mt-4 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas!</p>
 				<Link href={"#contact"}>
-					<Button className="mt-4 sm:mt-6 bg-[#3A73BA] text-[#F5F5F7]" color="primary" size="lg">Get a Free Quote</Button>
+					<Button className="mt-6 sm:mt-8 bg-[#3A73BA] text-[#F5F5F7]" color="primary" size="lg">Book Online</Button>
 				</Link>
 			</header>
 		</main>

@@ -15,7 +15,7 @@ export default function Service({ serviceImage, serviceTitle, serviceDesc, servi
             />
             <header className="p-2 pt-4 sm:py-3.5 sm:px-5 sm:pb-6">
                 <a href="#contact">
-                    <h2 className="text-2xl font-bold tracking-tight text-[#333333] dark:text-white">
+                    <h2 className="text-xl font-semibold tracking-tight text-[#333333] dark:text-white">
                         {serviceTitle}
                     </h2>
                 </a>

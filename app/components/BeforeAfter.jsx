@@ -3,20 +3,18 @@ import { ReactCompareSlider } from 'react-compare-slider';
 import Image from 'next/image';
 
 import Before1 from '@/app/assets/BeforeAfter/before-1.jpg'
-import Before2 from '@/app/assets/BeforeAfter/before-2.jpeg'
 import Before3 from '@/app/assets/BeforeAfter/before-3.jpeg'
 
 import After1 from '@/app/assets/BeforeAfter/after-1.jpg'
-import After2 from '@/app/assets/BeforeAfter/after-2.jpeg'
 import After3 from '@/app/assets/BeforeAfter/after-3.jpeg'
 
 export default function BeforeAfter() {
     return (
-        <div id='work' className='py-20 px-4 bg-[#F5F5F7] md:flex md:flex-col md:justify-center md:items-center'>
+        <div id='work' className='py-20 px-6 bg-[#F5F5F7] md:flex md:flex-col md:justify-center md:items-center'>
             <div className='text-center'>
                 <h2 className="text-base/6 font-semibold text-[#3A73BA]">Our Work</h2>
-                <p className="mt-4 text-balance text-5xl font-semibold tracking-tight text-[#333333] sm:text-6xl">
-                    Before and after pictures
+                <p className="mt-4 text-balance text-3xl font-semibold tracking-tight text-[#333333] sm:text-5xl">
+                    Before and After Pictures
                 </p>
             </div>
 
