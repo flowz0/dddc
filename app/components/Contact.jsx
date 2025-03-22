@@ -126,13 +126,12 @@ export default function Contact() {
             </div>
           </div>
         </div>
-        <div className="mt-3">
+        <div className="mt-4 flex justify-end">
           <Button
-            className="block text-[#F5F5F7] bg-[#3A73BA] rounded-lg"
-            fullWidth
+            className="w-full sm:w-fit font-semibold text-[#F5F5F7] bg-[#3A73BA] rounded-lg"
             type="submit"
           >
-            Request a Free Quote
+            Request a free quote
           </Button>
         </div>
       </form>

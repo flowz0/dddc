@@ -22,7 +22,7 @@ export default function Footer() {
                     width={3009}
                     height={2983}
                 />
-                <div className="mt-4 mx-2 flex gap-x-2 text-[#F5F5F7]">
+                <div className="mt-4 flex gap-x-2 text-[#F5F5F7]">
                     <Link href={"https://maps.app.goo.gl/hTBDS1CVNxKTGFUP9?g_st=ic"} target="_blank">
                         <FaGoogle className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
@@ -33,7 +33,7 @@ export default function Footer() {
                         <FaTiktok className="text-xl hover:text-[hsl(213,68%,68%)] active:text-[hsl(213,58%,58%)]" />
                     </Link>
                 </div>
-                <div className="mt-6 mx-2 grid grid-cols-1 gap-y-6 md:text-left text-[#F5F5F7] md:grid-cols-4">
+                <div className="mt-6 grid grid-cols-1 gap-y-6 md:text-left text-[#F5F5F7] md:grid-cols-4">
                     <div>
                         <h3 className="font-bold text-lg uppercase tracking-wide">Company</h3>
                         <div className="mt-2 flex flex-col gap-y-2.5">
@@ -73,10 +73,10 @@ export default function Footer() {
                         </div>
                     </div>
                 </div>
-                <hr className="mt-6 mx-2 border-0 h-px bg-[#F5F5F7]" />
-                <div className="flex flex-col sm:flex-row justify-between items-center">
-                    <p className="pt-4 pb-4 sm:pb-6 mx-2 text-sm text-center leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
-                    <p className="text-[#F5F5F7] pb-8 sm:pb-0">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
+                <hr className="mt-6 border-0 h-px bg-[#F5F5F7]" />
+                <div className="flex flex-col sm:flex-row justify-between sm:items-center">
+                    <p className="pt-6 pb-4 sm:pb-6 text-sm leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
+                    <p className="text-[#F5F5F7] pb-8 pt-2 sm:pt-0 sm:pb-0">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
                 </div>
             </div>
         </footer>

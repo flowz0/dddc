@@ -17,19 +17,19 @@ export default function Services() {
 					serviceImage={AirDuctCleaning}
 					serviceTitle={"Air Duct Cleaning"}
 					serviceDesc={"We remove dust, debris, and allergens from your ducts, improving air quality and making your home healthier."}
-					serviceCTAButton={"Learn more"}
+					serviceCTAButton={"Request a free quote"}
 				/>
 				<Service
 					serviceImage={DryerVentCleaning}
 					serviceTitle={"Dryer Vent Cleaning"}
 					serviceDesc={"Prevent fire hazards and increase dryer efficiency with regular vent cleaning, extending the life of your appliance."}
-					serviceCTAButton={"Learn more"}
+					serviceCTAButton={"Request a free quote"}
 				/>
 				<Service
 					serviceImage={HVACSanitization}
 					serviceTitle={"HVAC Maintenance"}
 					serviceDesc={"Our non-toxic HVAC sanitization kills bacteria and mold, helping circulate cleaner air throughout your home."}
-					serviceCTAButton={"Learn more"}
+					serviceCTAButton={"Request a free quote"}
 				/>
 			</article>
 		</div>
