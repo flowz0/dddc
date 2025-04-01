@@ -76,7 +76,7 @@ export default function Footer() {
                 <hr className="mt-6 border-0 h-px bg-[#F5F5F7]" />
                 <div className="flex flex-col sm:flex-row justify-between sm:items-center">
                     <p className="pt-6 pb-4 sm:pb-6 text-sm leading-loose text-[#F5F5F7]">© 2023 - {newDateYear()} Duct Daddy. All rights reserved.</p>
-                    <p className="text-[#F5F5F7] pb-8 pt-2 sm:pt-0 sm:pb-0">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
+                    <p className="text-[#F5F5F7] pb-24 pt-2 sm:pt-0 sm:pb-0">Powered by <Link href={"https://www.bflows.dev/"} target="_blank" className="underline decoration-solid text-[#F5F5F7] hover:text-[#F5F5F7]/75">flowz0</Link></p>
                 </div>
             </div>
         </footer>

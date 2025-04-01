@@ -1,22 +1,22 @@
-import BeforeAfter from "./components/BeforeAfter";
-import Contact from "./components/Contact";
-import Footer from "./components/Footer";
-import FAQ from "./components/FAQ";
+import MobileCTAs from "./components/MobileCTAs";
 import Hero from "./components/Hero";
 import Services from "./components/Services";
+import BeforeAfter from "./components/BeforeAfter";
 import SpecialOffers from "./components/SpecialOffers";
-import CallNowBtn from "./components/CallNowBtn";
+import FAQ from "./components/FAQ";
+import BookingCTA from "./components/BookingCTA";
+import Footer from "./components/Footer";
 
 export default function Home() {
   return (
     <>
-      <CallNowBtn />
+      <MobileCTAs />
       <Hero />
       <Services />
       <BeforeAfter />
       <SpecialOffers />
       <FAQ />
-      <Contact />
+      <BookingCTA />
       <Footer />
     </>
   );

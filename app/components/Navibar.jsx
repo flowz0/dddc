@@ -79,11 +79,6 @@ export default function Navibar() {
             FAQ
           </Link>
         </NavbarItem>
-        <NavbarItem>
-          <Link className="hover:text-[#3A73BA]" href="#contact">
-            Contact
-          </Link>
-        </NavbarItem>
       </NavbarContent>
       <NavbarContent className="hidden sm:flex" justify="end">
         <NavbarItem>
@@ -125,11 +120,6 @@ export default function Navibar() {
         <NavbarMenuItem>
           <Link className="hover:text-[#3A73BA]" href="#faq">
             FAQ
-          </Link>
-        </NavbarMenuItem>
-        <NavbarMenuItem>
-          <Link className="hover:text-[#3A73BA]" href="#contact">
-            Contact
           </Link>
         </NavbarMenuItem>
       </NavbarMenu>
