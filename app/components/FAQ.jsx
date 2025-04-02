@@ -9,7 +9,7 @@ export default function FAQ() {
           Frequently Asked Questions
         </p>
       </div>
-      <div className="mx-auto mt-8 max-w-2xl">
+      <div className="mx-auto mt-8 max-w-3xl">
         <AccordionFAQ />
       </div>
     </div>

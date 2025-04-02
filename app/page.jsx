@@ -5,7 +5,6 @@ import BeforeAfter from "./components/BeforeAfter";
 import SpecialOffers from "./components/SpecialOffers";
 import FAQ from "./components/FAQ";
 import BookingCTA from "./components/BookingCTA";
-import Footer from "./components/Footer";
 
 export default function Home() {
   return (
@@ -17,7 +16,6 @@ export default function Home() {
       <SpecialOffers />
       <FAQ />
       <BookingCTA />
-      <Footer />
     </>
   );
 }

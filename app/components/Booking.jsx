@@ -27,7 +27,7 @@ export default function Booking() {
         data-token="127343b956e24e13a52da46f4500936b"
         data-orgname="Duct-Daddy"
         onClick={handleClick}
-        className="flex items-center gap-x-2.5"
+        className="flex w-fit items-center gap-x-2.5 font-semibold bg-[#3A73BA] text-[#F5F5F7] py-2.5 px-5 rounded-xl hover:bg-[hsl(213,52%,38%)]"
       >
         <FaCalendarDays />
         Book Now

@@ -25,7 +25,7 @@ export default function Hero() {
 				/>
 				<h1 className="mt-4 font-bold text-3xl/tight sm:text-5xl/tight text-[#F5F5F7]">Affordable and Dependable Duct Cleaning Services</h1>
 				<p className="mt-2 px-1 sm:mt-4 leading-relaxed sm:leading-none text-[#F5F5F7]">Based in Kansas City and Surrounding Areas!</p>
-				<div className="mt-6 sm:mt-8 bg-[#3A73BA] text-[#F5F5F7] py-2.5 px-5 rounded-xl hover:bg-[hsl(213,52%,38%)]">
+				<div className="mt-6 sm:mt-8 ">
 					<Booking />
 				</div>
 			</header>

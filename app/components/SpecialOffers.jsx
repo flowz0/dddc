@@ -4,7 +4,7 @@ const tiers = [
     {
         name: 'Breathe Easy Bundle',
         id: 'tier-hobby',
-        href: '#contact',
+        href: '#booking',
         priceMonthly: '$100',
         description: "Book our comprehensive air duct cleaning service, and add dryer vent cleaning for only $100! Keep your home\’s air fresh and safe with this complete cleaning package.",
         features: [
@@ -15,7 +15,7 @@ const tiers = [
     {
         name: 'Fresh Start Discount',
         id: 'tier-enterprise',
-        href: '#contact',
+        href: '#booking',
         priceMonthly: '$50',
         description: 'New customers save $50 on their first air duct cleaning service! Give your home a fresh start with our top-quality cleaning.',
         features: [

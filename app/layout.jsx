@@ -2,6 +2,7 @@ import "./globals.css";
 import Navibar from "./components/Navibar";
 import { NextUIProvider } from "@nextui-org/system";
 import { Toaster } from "react-hot-toast";
+import Footer from "./components/Footer";
 
 export const metadata = {
   title: "Duct Daddy Duct Cleaning",
@@ -16,6 +17,7 @@ export default function RootLayout({ children }) {
         <NextUIProvider>
           <Navibar />
           {children}
+          <Footer />
         </NextUIProvider>
         <Toaster
           position="top-center"
